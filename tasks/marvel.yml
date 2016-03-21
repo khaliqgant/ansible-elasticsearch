@@ -13,7 +13,7 @@
 # - elasticsearch_plugin_marvel_agent_exporter_es_index_timeformat
 
 - name: marvel | Removing Marvel Plugin if it exists
-  shell: bin/plugin --remove marvel
+  shell: bin/plugin remove marvel/agent
     chdir={{ elasticsearch_home_dir }}
   ignore_errors: yes
 - name: marvel | Installing Marvel Plugin
