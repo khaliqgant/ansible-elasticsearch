@@ -445,6 +445,10 @@ cloud.aws.secret_key: '{{ elasticsearch_plugin_aws_secret_key }}'
 {% if elasticsearch_plugin_aws_region is defined %}
 cloud.aws.region: {{ elasticsearch_plugin_aws_region}}
 {% endif %}
+{% if elasticsearch_plugin_aws_protocol is defined %}
+cloud.aws.protocol: {{ elasticsearch_plugin_aws_protocol}}
+{% endif %}
+
 
 {% endif %}
 
