@@ -1,7 +1,10 @@
 # Ansible Playbook for Elasticsearch
-[![Build Status](https://travis-ci.org/Traackr/ansible-elasticsearch.svg?branch=master)](https://travis-ci.org/Traackr/ansible-elasticsearch)
+<!--[![Build Status](https://travis-ci.org/Traackr/ansible-elasticsearch.svg?branch=master)](https://travis-ci.org/Traackr/ansible-elasticsearch)-->
 
 This is an [Ansible](http://www.ansibleworks.com/) playbook for [Elasticsearch](http://www.elasticsearch.org/). You can use it by itself or as part of a larger playbook customized for your local environment.
+
+This difference between this and the [forked version](https://github.com/Traackr/ansible-elasticsearch) is that this library has been updated to support 
+Elasticsearch [2.2.1](https://github.com/khaliqgant/ansible-elasticsearch/commit/16d0bc735fd7570a2fd3528853ae8224e0c80ab9)
 
 ## Features
 - Support for installing plugins
@@ -246,4 +249,7 @@ MIT
 
 # Author Information
 
+Khaliq Gant - khaliqgant [at] gmail.com
+
+# Original Author
 George Stathis - gstathis [at] traackr.com
