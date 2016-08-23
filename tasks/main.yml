@@ -13,7 +13,7 @@
 
 # Install AWS Plugin
 - include: aws.yml
-  when: (elasticsearch_plugin_aws_version is defined)
+  when: (elasticsearch_plugin_aws_enable is defined)
 
 # Install Other Generic Plugins
 - include: plugins.yml

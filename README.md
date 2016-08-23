@@ -98,7 +98,7 @@ $  ansible-playbook my-playbook-main.yml -i my-inventory.ini -e user=<your sudo 
 ### Configuring EC2
 The following variables need to be defined in your playbook or inventory:
 
-- elasticsearch_plugin_aws_version
+- elasticsearch_plugin_aws_enable
 
 See [https://github.com/elasticsearch/elasticsearch-cloud-aws](https://github.com/elasticsearch/elasticsearch-cloud-aws) for the version that most accurately matches your installation.
 
