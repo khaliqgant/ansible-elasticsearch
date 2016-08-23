@@ -424,7 +424,7 @@ indices.recovery.concurrent_streams: {{ elasticsearch_recovery_concurrent_stream
 
 ################################## Discovery ##################################
 
-{% if elasticsearch_plugin_aws_version is defined %}
+{% if elasticsearch_plugin_aws_enable is defined %}
 
 {% if elasticsearch_plugin_aws_discovery_disable is not defined %}
 discovery.type: ec2
